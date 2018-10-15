@@ -16,6 +16,9 @@
     <!-- map css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/map-search-box.css'); ?>">
 
+    <!--estilo css-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/estilo.css'); ?>">
+
     <!-- leaflet js -->
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
     integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
@@ -29,13 +32,8 @@
     <!-- menu div -->
     <?php $this->load->view('includes/menu'); ?>
 
-    <!-- message div -->
-    <?php $this->load->view('includes/msg'); ?>
     
-    <!-- content -->
-    <h2>Mapa</h2><br>
-
-    <div id="map" style="height : 350px;">
+    <div id="map" style="height :500px; margin-top: 50px;">
         <div id=black-screen-report class=map-black-screen >
             <div id=report-display class=popup-report>
                 <span id=close-button-report class=popup-report-close-button>&times;</span>
@@ -57,6 +55,9 @@
 
     <!-- load main js -->
     <?php $this->load->view('includes/main_js'); ?>
+
+    <!-- message div -->
+    <?php $this->load->view('includes/msg'); ?>
 
 
     <!-- define base_url in a global var -->

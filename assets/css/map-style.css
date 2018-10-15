@@ -1,0 +1,100 @@
+/* marker popup */
+.popup-conteiner {
+    font-size: 16px;
+    width: 200px;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.pupup-info1 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.popup-reports {
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 100px;
+}
+
+.popup-reports img {
+    margin: 2px;
+    height: 18px;
+    width: auto;
+    text-align: center;
+}
+
+.pupup-info2 {
+    margin-top: 5px;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.popup-button-report {
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    padding: 0;
+    height: 20px;
+    width: 20px;
+    float: right;
+    font-size: 16px;
+}
+
+.popup-button-report:hover {
+    background-color: brown;
+    font-size: 18px;
+}
+
+.popup-button-report:focus {
+    outline: 0;
+}
+
+
+/* window report popup */
+.popup-report {
+    background-color: #fefefe;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    z-index: 1002;
+}
+
+.popup-report-close-button {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.popup-report-close-button:hover,
+.popup-report-close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* modal background */
+.map-black-screen {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    overflow: auto;
+}

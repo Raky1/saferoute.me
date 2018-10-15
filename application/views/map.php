@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/estilo.css'); ?>">
 
     <!--Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu" rel="stylesheet">
 
     <!-- leaflet js -->
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"

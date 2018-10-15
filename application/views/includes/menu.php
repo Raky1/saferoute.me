@@ -4,7 +4,7 @@
 <div class="rodape container fixed-top">
   <ul class="nav">
   	<li class="nav-item">
-      <p class="email">Email:contatosaferoute.me</p>
+      <p class="email">Email:&nbsp;contatosaferoute.me</p>
     </li>
   </ul>
  <!--<div class="login-registro">

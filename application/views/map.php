@@ -11,17 +11,10 @@
     integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
     crossorigin=""/>
 
-
     <!-- map css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/map-style.css'); ?>">
     <!-- map css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/map-search-box.css'); ?>">
-
-    <!--estilo css-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/estilo.css'); ?>">
-
-    <!--Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu" rel="stylesheet">
 
     <!-- leaflet js -->
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
@@ -36,8 +29,13 @@
     <!-- menu div -->
     <?php $this->load->view('includes/menu'); ?>
 
+    <!-- message div -->
+    <?php $this->load->view('includes/msg'); ?>
     
-    <div id="map" style="height :500px; margin-top: 45px;">
+    <!-- content -->
+    <h2>Mapa</h2><br>
+
+    <div id="map" style="height : 350px;">
         <div id=black-screen-report class=map-black-screen >
             <div id=report-display class=popup-report>
                 <span id=close-button-report class=popup-report-close-button>&times;</span>
@@ -60,16 +58,12 @@
     <!-- load main js -->
     <?php $this->load->view('includes/main_js'); ?>
 
-    <!-- message div -->
-    <?php $this->load->view('includes/msg'); ?>
-
 
     <!-- define base_url in a global var -->
     <script>var base_url = '<?php echo base_url();  ?>';</script>
     <!-- map js -->
     <script type="text/javascript" src="<?php echo base_url('assets/js/map-search-box.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/map.js'); ?>"> require("<?php echo base_url('assets/js/map.js'); ?>"); </script>
-    
 
 </body>
 </html>

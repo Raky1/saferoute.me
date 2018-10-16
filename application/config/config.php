@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://saferoute.me/';
-$config['base_url'] = 'http://localhost/saferoute.me/';
+$config['base_url'] = 'http://localhost/saferoute/';
 
 /*
 |--------------------------------------------------------------------------

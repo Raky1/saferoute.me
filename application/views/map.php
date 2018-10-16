@@ -11,6 +11,7 @@
     integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
     crossorigin=""/>
 
+
     <!-- map css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/map-style.css'); ?>">
     <!-- map css -->
@@ -36,7 +37,7 @@
     <?php $this->load->view('includes/menu'); ?>
 
     
-    <div id="map" style="height :500px; margin-top: 50px;">
+    <div id="map" style="height :500px; margin-top: 45px;">
         <div id=black-screen-report class=map-black-screen >
             <div id=report-display class=popup-report>
                 <span id=close-button-report class=popup-report-close-button>&times;</span>
@@ -68,6 +69,7 @@
     <!-- map js -->
     <script type="text/javascript" src="<?php echo base_url('assets/js/map-search-box.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/map.js'); ?>"> require("<?php echo base_url('assets/js/map.js'); ?>"); </script>
+    
 
 </body>
 </html>

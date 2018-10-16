@@ -3,9 +3,9 @@
 	margin-top: 20px;
 }
 
-.login-registro{
+/*.login-registro{
 	margin-top: -45px;
-}
+}*/
 
 p.email{
 	margin-top: 5px;
@@ -16,7 +16,8 @@ p.email{
 
 /*Menu Inicio*/
 .nav-header{
-	margin-top: 50px;
+	margin-left: 40%;
+	margin-top: -25px;
 
 }
 
@@ -40,3 +41,12 @@ a:hover{
 .dropdown-menu{
 	background-color: #e9e9e9;
 }
+
+.navbar-toggler{
+	background-color: #e9e9e9;
+	margin-left: 100px;
+	margin-top: -20px;
+}
+
+
+	

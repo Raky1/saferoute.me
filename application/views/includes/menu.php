@@ -1,6 +1,3 @@
-<div class="logo">
-    <img src="assets/images/logopng.png">
-</div>
 <div class="rodape container fixed-top">
   <ul class="nav">
   	<li class="nav-item">
@@ -22,9 +19,17 @@
 <div class="hr fixed-top" >
 	<hr>
 </div>
+<div class="logo">
+    <img src="assets/images/logopng.png">
+</div>
+<nav class="nav-header navbar navbar-expand-sm">
+<div class="btn-cell">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+    <span class="navbar-toggler-icon" style=" color: #000;">|||</span>
+  </button>
+</div>
 
-<nav class="nav-header navbar navbar-expand-sm  fixed-top justify-content-end">
-  <ul class="nav">
+  <ul class="nav collapse navbar-collapse" id="collapsibleNavbar">
     <li class="nav-item">
       <a class="nav-link active" href="index.php"><u>H</u>ome</a>
     </li>

@@ -48,5 +48,18 @@ a:hover{
 	margin-top: -20px;
 }
 
+/*Fui Roubado*/
+.form-roubo{
+	width: 310px;
+	height: 450px;
+	background-color: red;
+	margin-top: 50px;
+}
 
-	
+.form-roubo input{
+	width: 290px;
+	margin-left: 10px;
+}
+
+/*Fim*/
+
